@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import './pages/ChatWithMomPage.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -43,7 +45,14 @@ class MyHomePage extends StatelessWidget {
                 CircleImageButton(
                   imagePath: 'assets/mom.png',
                   label: 'Mom',
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const ChatWithMomPage(),
+                      ),
+                    );
+                  },
                 ),
                 CircleImageButton(
                   imagePath: 'assets/sister.png',
