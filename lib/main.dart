@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Hluvukisp',
+      title: 'Hluvukiso',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -61,7 +61,7 @@ class MyHomePage extends StatelessWidget {
                 ),
                 CircleImageButton(
                   imagePath: 'assets/bot.png',
-                  label: 'Bot',
+                  label: 'EviBot',
                   onPressed: () {},
                 ),
                 CircleImageButton(
@@ -75,27 +75,27 @@ class MyHomePage extends StatelessWidget {
             ToggleButtonGroup(),
             const SizedBox(height: 32), // Move buttons down a bit
             GradientButton(
-              text: 'Join our\nReach out for support',
+              text: 'Join our\nHluvukiso Support Group',
               subText: 'Get help',
               icon: Icons.people,
               count: 2,
             ),
             const SizedBox(height: 16),
             GradientButton(
-              text: 'Connect with\nSeek legal advice and support',
-              subText: 'Get',
+              text: 'Seek \nLegal Advice and Support',
+              subText: 'Get Advice',
               icon: Icons.gavel,
             ),
             const SizedBox(height: 16),
             GradientButton(
-              text: 'Share your\nGet guidance and support',
-              subText: 'Stay',
+              text: 'Share your\nGuidance and Support',
+              subText: 'Help Others',
               icon: Icons.people,
             ),
             const SizedBox(height: 16),
             GradientButton(
               text: '24/7\nSuicide Support',
-              subText: '',
+              subText: 'Save A Life',
               icon: Icons.favorite,
             ),
           ],
